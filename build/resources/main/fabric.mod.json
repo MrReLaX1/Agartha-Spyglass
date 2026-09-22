@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "spyglass",
+  "version": "1.0.5",
+  "name": "Spyglass",
+  "description": "Hold C to look through a spyglass, no item needed. Scroll to adjust the zoom.",
+  "authors": [
+    "MrRelax"
+  ],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fr.mrrelax.spyglass.Spyglass"
+    ],
+    "client": [
+      "fr.mrrelax.spyglass.client.SpyglassClient"
+    ]
+  },
+  "mixins": [
+    "spyglass.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

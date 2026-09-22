@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fr.mrrelax.spyglass.mixin.client",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "AbstractClientPlayerMixin",
+    "CameraMixin",
+    "FirstPersonHandsAndItemsMixin",
+    "HumanoidModelMixin",
+    "LevelExtractorMixin",
+    "LevelRendererMixin",
+    "LivingEntityMixin",
+    "LocalPlayerMixin",
+    "MouseHandlerMixin",
+    "PlayerModelMixin",
+    "PlayerItemInHandLayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

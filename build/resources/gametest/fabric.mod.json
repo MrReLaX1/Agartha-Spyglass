@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "spyglass-gametest",
+  "version": "1.0.0",
+  "name": "Spyglass (tests)",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-client-gametest": [
+      "fr.mrrelax.spyglass.gametest.SpyglassClientGameTest",
+      "fr.mrrelax.spyglass.gametest.SpyglassElytraGameTest"
+    ]
+  },
+  "mixins": [
+    "spyglass-gametest.mixins.json"
+  ],
+  "depends": {
+    "spyglass": "*"
+  }
+}
