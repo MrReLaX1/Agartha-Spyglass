@@ -1,0 +1,21 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2026-09-22 21:59:19 +0200"
+    },
+    "done": false
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2026-09-22 21:59:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-09-22 21:59:18 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 5023
+}

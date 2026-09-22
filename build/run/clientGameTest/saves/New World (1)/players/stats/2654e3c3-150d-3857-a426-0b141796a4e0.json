@@ -1,0 +1,18 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:spyglass": 2
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 283,
+      "minecraft:walk_one_cm": 383,
+      "minecraft:total_world_time": 283,
+      "minecraft:leave_game": 1,
+      "minecraft:fly_one_cm": 440,
+      "minecraft:play_time": 283,
+      "minecraft:time_since_death": 283,
+      "minecraft:aviate_one_cm": 14733
+    }
+  },
+  "DataVersion": 5023
+}
